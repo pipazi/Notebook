@@ -6,10 +6,11 @@
 
 * strong airflow
   ![avatar](../img/strongAirflow.png)
-  From: https://www.cnblogs.com/xiongnanbin/p/11836049.html
+  <br>From: https://www.cnblogs.com/xiongnanbin/p/11836049.html
+  
 * celery worker
   ![avatar](../img/celery.png)
-  From: https://airflow.apache.org/docs/stable/executor/celery.html
+  <br>From: https://airflow.apache.org/docs/stable/executor/celery.html
   
 ## Problems:
 1. ModuleNotFoundError: No module named 'MySQLdb':
