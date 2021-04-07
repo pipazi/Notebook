@@ -25,6 +25,28 @@ class Test(object):
 * self: Instantiated class
 * cls: class before Instantiate
 
+## classmethod
+* use class method for Polymorphism
+```python
+class Test(object):
+    before = 6
+    def __init__(self):
+        self.value = 5
+    
+    @classmethod
+    def map(cls):
+        print(cls.before)
+
+class Test(object):
+    before = 6
+    def __init__(self):
+        self.value = 5
+    
+    @classmethod
+    def map(cls):
+        print(cls.before + 1)
+```
+
 ## inherit
 * always use super for inheritation
 * super().__init__(value) == super(__class__, self).__init__(value)
