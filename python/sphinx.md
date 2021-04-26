@@ -15,4 +15,6 @@ sphinx.ext.napoleon
 
 4. sphinx-apidoc -f -o ./source ../ubd
 
-5. tar -czvf test.tar.gz build/
+5. make markdown
+
+6. tar -czvf test.tar.gz build/
