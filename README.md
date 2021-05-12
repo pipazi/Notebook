@@ -8,3 +8,5 @@
 * [import](python/import.md)
 * [sphinx](python/sphinx.md)
 * [class](python/class.md)
+### Torch
+* [Machine Learning](torch/ML.md)
