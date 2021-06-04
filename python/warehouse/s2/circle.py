@@ -43,3 +43,11 @@ def getRectCoveringRect(max_lon, min_lon, max_lat, min_lat):
     cell_ids = r.get_covering(s2sphere.LatLngRect.from_point_pair(p1, p2))
     return cell_ids
 
+
+# import s2sphere
+# lat = 52.809766
+# lng = -2.088996
+# print(
+#     s2sphere.CellId.from_lat_lng(s2sphere.LatLng.from_degrees(lat, lng)),
+#     s2sphere.CellId.from_lat_lng(s2sphere.LatLng.from_degrees(lat, lng)).parent(30)
+# )
